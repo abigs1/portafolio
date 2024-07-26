@@ -1,0 +1,12 @@
+body{
+    
+}
+
+#presentacion{
+    height: 70vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
