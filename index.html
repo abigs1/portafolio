@@ -14,9 +14,9 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+        <nav class="navbar fixed-top navbar-expand-lg bg-dark" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Abigail</a>
+                <a class="navbar-brand" href="#">Página principal</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -58,21 +58,20 @@
 
     <main>
 
-        <section id="presentacion">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5" >
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="AA.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
-                        height="500" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hola, soy Abigail</h1>
-                    <p class="lead">Tengo 21 años y soy estudiante de Ciencias de la Computación en la Facultad de
-                        Ciencias de la UNAM. Estoy buscando empleo en el área de desarrollo FrontEnd. Me apasiona crear
-                        interfaces intuitivas y atractivas, y estoy lista para aplicar mis conocimientos y habilidades
-                        en un entorno profesional.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-secondary btn-lg">Contactame</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">abi.gs2003@gmail.com</button>
+        <section id="presentacion" class="foto">
+            <div class="text-secondary text-center bg-dark width" id="linea">
+                <div class="py-5">
+                    <h1 id="app" class="display-5 fw-bold text-white text-shadow-1">Abigail García</h1>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="fs-5 mb-4 text-white text-shadow-1">Estudiante de Ciencias de la Computación en la Facultad de
+                            Ciencias UNAM. <br> Me interesa conseguir un empleo en el área de desarrollo FrontEnd.
+                            Me apasiona la creación de interfaces atractivas y intuitivas.  
+                        </p>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                            <button type="button"
+                                class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Contactame</button>
+                            <button type="button" class="btn btn-outline-light btn-lg px-4">CV</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,53 +81,45 @@
 
         <section id="habilidades">
             <div class="container px-4 py-5" id="hanging-icons">
-                <h2 class="pb-2 border-bottom">Habilidades</h2>
+                <h2 class="pb-2 border-bottom text-center habilidades"  >Habilidades</h2>
                 <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
                     <div class="col d-flex align-items-start">
                         <div
                             class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
                             <i class="bi bi-archive"></i>
-                                <use xlink:href="#toggles2"></use>
+                            <use xlink:href="#toggles2"></use>
                             </svg>
                         </div>
                         <div>
                             <h3 class="fs-2 text-body-emphasis">Bases de datos</h3>
                             <p>pues le se mucho a eso y asi
                             </p>
-                            <a href="#" class="btn btn-primary">
-                               boton
-                            </a>
+                          
                         </div>
                     </div>
                     <div class="col d-flex align-items-start">
                         <div
                             class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
                             <i class="bi bi-filetype-html"></i>
-                                <use xlink:href="#cpu-fill"></use>
+                            <use xlink:href="#cpu-fill"></use>
                             </svg>
                         </div>
                         <div>
-                            <h3 class="fs-2 text-body-emphasis">Desarrollo web fullstack</h3>
+                            <h3 class="fs-2 text-body-emphasis">FrontEnd</h3>
                             <p>tambien le se tambien le se, lo juro </p>
-                            <a href="#" class="btn btn-primary">
-                                boton
-                            </a>
+                         
                         </div>
                     </div>
                     <div class="col d-flex align-items-start">
-                        <div
-                            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                            <i class="bi bi-android2"></i>
-                                <use xlink:href="#tools"></use>
-                            </svg>
-                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-code" viewBox="0 0 16 16">
+                            <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8z"/>
+                          </svg>
                         <div>
-                            <h3 class="fs-2 text-body-emphasis">Desarrollo movil</h3>
-                            <p>Psisisis
+                            <h3 class="fs-2 text-body-emphasis">Desarrollo backend</h3>
+                            <p>Le se al Java, Python y JavaScript, en serio.
                             </p>
-                            <a href="#" class="btn btn-primary">
-                               boton
-                            </a>
+                         
+                            
                         </div>
                     </div>
                 </div>
@@ -137,96 +128,36 @@
 
         <section id="proyectos">
             <div class="container px-4 py-5" id="custom-cards">
-                <h2 class="pb-2 border-bottom">Proyectos que he desarrollado</h2>
+                <h2 class="pb-2 border-bottom text-center">Proyectos que he desarrollado</h2>
 
                 <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
                     <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                            style="background-image: url('unsplash-photo-1.jpg');">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Miren este proyecto q lindo</h3>
+                        <div id="proyecto-1" class="card card-cover h-100 overflow-hidden  rounded-4 shadow-lg">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white ">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center text-shadow-1 ">Clon de
+                                    Google</h3>
                                 <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="me-auto">
-                                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                            class="rounded-circle border border-white">
-                                    </li>
-                                    <li class="d-flex align-items-center me-3">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#geo-fill"></use>
-                                        </svg>
-                                        <small>Proyecto de desarrollo web</small>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#calendar3"></use>
-                                        </svg>
-                                        <small>3d</small>
+                                    <li class="mx-auto">
+                                        <a href="http://" target="_blank" rel="noopener noreferrer"
+                                            class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">DA
+                                            CLICK AQUI</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                            style="background-image: url('unsplash-photo-2.jpg');">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Super genial proyecto</h3>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="me-auto">
-                                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                            class="rounded-circle border border-white">
-                                    </li>
-                                    <li class="d-flex align-items-center me-3">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#geo-fill"></use>
-                                        </svg>
-                                        <small>Pakistan</small>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#calendar3"></use>
-                                        </svg>
-                                        <small>4d</small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                            style="background-image: url('unsplash-photo-3.jpg');">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Otro lindo proyecto</h3>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="me-auto">
-                                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                            class="rounded-circle border border-white">
-                                    </li>
-                                    <li class="d-flex align-items-center me-3">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#geo-fill"></use>
-                                        </svg>
-                                        <small>Bases de datos</small>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#calendar3"></use>
-                                        </svg>
-                                        <small>5d</small>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+            </div>
             </div>
         </section>
 
 
         <section id="testimonios">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <h1 class="text-center">Testimonios</h1>
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"></div>
+            <div id="myCarousel" class="carousel slide mb-6 " data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
                         aria-label="Slide 1" aria-current="true"></button>
@@ -235,47 +166,45 @@
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
                         class=""></button>
                 </div>
+                <!--contenido del carrusel-->
                 <div class="carousel-inner">
+
                     <div class="carousel-item active">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">ABi es genial.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Bill Gates</a></p>
-                            </div>
-                        </div>
+
+                        <article class="text-center">
+                            <img class="rounded-4" src="assets/bill-gates.jpg" id="billgates">
+                            <h1>Bill gates</h1>
+                            <p class="frase">"Gracias Abi por enseñarme a programar."</p>
+                                     
+
+                        <article>
+
                     </div>
+
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Abi deberia trabajar en Google</h1>
-                                <p>Abi deberia trabajar en Google</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Creador de google</a></p>
-                            </div>
+
+                  
+                        <article class="text-center">
+                            <img class="rounded-4" src="https://media.gq.com.mx/photos/5f53e61f4464f9b88fb26511/16:9/w_2560%2Cc_limit/recrean-el-verdadero-rostro-de-jesucristo-con-inteligencia-artificial-redes.jpg" id="billgates">
+                            <h1>Jesús</h1>
+                            <p class="frase">"Abi me inspiró."</p>
+                                     
+                               
+                        
+                        <article>
                         </div>
-                    </div>
+
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p>Abi me inspiró.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Jesus</a></p>
-                            </div>
-                        </div>
+                        <article class="text-center">
+                            <img class="rounded-4" src="assets/creadores-google.jpg" id="billgates">
+                            <h1>Creadores de Google</h1>
+                            <p class="frase">"Ojalá Abi trabajara para nosotros"</p>
+                                     
+                        <article>
+                            
                     </div>
                 </div>
+                <!--botones flechas para pasar -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -312,9 +241,14 @@
 
     </footer>
 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
 </body>
+
 
 </html>
