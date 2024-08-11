@@ -4,8 +4,6 @@ body{
 
 #presentacion{
     height: 100vh;
-    display: flex;
-    align-items: center;
    
 }
 
@@ -24,7 +22,8 @@ body{
 
 .foto{
     background-image: url("assets/code.png");
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #linea{
@@ -50,4 +49,23 @@ body{
 .width{
     width: 900px;
     margin-left: 600px;
+}
+.color{
+    color: whitesmoke;
+}
+.opacidad{
+    opacity: 85%;
+
+}
+
+.abajo{
+padding-top: 300px;
+}
+
+.arriba{
+    padding-bottom: 300px;
+}
+.text{
+    text-decoration: none;
+  
 }
